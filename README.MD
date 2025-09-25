@@ -9,6 +9,6 @@ Project sederhana untuk menampilkan data karakter **Rick and Morty** dari API pu
 - Styling menggunakan **Flexbox**.
 
 ## Result
-![result](/assets/Screenshot%202025-09-24%20at%2021.07.56.png)
+![result](/assets/image/Screenshot%202025-09-24%20at%2021.07.56.png)
 
-![result](/assets/Screenshot%202025-09-24%20at%2021.08.18.png)
+![result](/assets/image/Screenshot%202025-09-24%20at%2021.08.18.png)
