@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick and morty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-serif" >
-    <div class="flex justify-center flex-col gap-20 bg-black">
-        <form class="flex justify-center">
-            <div class="input-search">
-                <input type="text" placeholder="SEARCH CHARACTER" id="input" class="rounded-[10px] border-[3px] border-white h-[30px] w-[40vh]">
-                <button id="btn" type="submit" class="text-base border h-[35px] text-white rounded-[10px] w-[90px]" >search</button>
-            </div>
-        </form>
-        <div id="main" class="flex flex-wrap justify-center gap-[15px] "></div>
-    </div>
+<body class="font-serif bg-black text-white">
+  <div class="flex justify-center flex-col gap-20">
+    <form class="flex justify-center">
+      <div class="input-search">
+        <input type="text" placeholder="SEARCH CHARACTER" id="input" class="rounded-[10px] border-[3px] border-white h-[30px] w-[40vh]">
+        <button id="btn" type="submit" class="text-base border h-[35px] text-white rounded-[10px] w-[90px]">search</button>
+      </div>
+    </form>
+    <div id="main" class="flex flex-wrap justify-center gap-[15px]"></div>
+  </div>
 
-    <script src="index.js"></script>
+  <script data-main="js/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 </body>
 </html>
